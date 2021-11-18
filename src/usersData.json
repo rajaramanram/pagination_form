@@ -1,0 +1,7 @@
+{
+      "jsonUsers":[ {"UserName": "Frozen yoghurt", "UserEmail": "frozen@gmail.com", "UserPassword": "pass1", "UserPassword2": "pass1"},
+         {"UserName": "Ice cream sandwich", "UserEmail": "ice@gmail.com", "UserPassword": "pass1", "UserPassword2": "pass1"},
+         {"UserName": "Eclair", "UserEmail": "eclair@gmail.com", "UserPassword": "pass1", "UserPassword2": "pass1"},
+         {"UserName": "Cupcake", "UserEmail": "cupcake@gmail.com", "UserPassword": "pass1", "UserPassword2": "pass1"},
+         {"UserName": "Gingerbread", "UserEmail": "ginger@gmail.com", "UserPassword": "pass1", "UserPassword2": "pass1"}]  
+}
