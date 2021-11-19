@@ -7,7 +7,7 @@ function App() {
 
   return (
             < Routes>
-              <Route exact path='/' element={<Home/>}></Route>
+              <Route exact path='/' element={<Pagination/>}></Route>
               <Route exact path='/form'  element={<Form/>}></Route>
               <Route exact path='/pagination'  element={<Pagination/>}></Route>
             </ Routes>

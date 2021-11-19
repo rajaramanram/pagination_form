@@ -40,6 +40,8 @@ console.log("localform-------",local_storag_data_form)
 
 local_storag_data_form.push(newUser);
 localStorage.setItem("users_update", JSON.stringify(local_storag_data_form));
+navigate('/pagination')
+
   };
 
   return (

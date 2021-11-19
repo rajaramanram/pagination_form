@@ -27,17 +27,17 @@ console.log("json data",data.jsonUsers)
 //update with json file
 
 export default function Pagination() {
-  //const [totalStorage,setTotalStorage]=useState([])
+ 
   var local_storag_data 
 console.log("check_length","users_update" in localStorage )
-if ("users_update" in localStorage){
+if ("users_update" in localStorage ){
   local_storag_data = JSON.parse(localStorage.getItem("users_update") || "[]");
-  //setTotalStorage(local_storag_data)
+  
 }else{
   localStorage.setItem("users", JSON.stringify(data.jsonUsers));
 
    local_storag_data = JSON.parse(localStorage.getItem("users") || "[]");
-   //setTotalStorage(local_storag_data)
+ 
 }
 
 
